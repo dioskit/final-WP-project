@@ -15,8 +15,8 @@ This project is a collaborative effort by contributors Tsewang,Ritesh, Mithra, a
 
 ## Links
 
-- [Project Website](https://www.spacetourism.com)
-- [GitHub Repository](https://github.com/yourusername/spacetourism)
+- [Project Website](https://dioskit.github.io/final-WP-project/)
+- [GitHub Repository](https://github.com//spacetourism)
 - [Website Page](https://htewebpage.com)
 
 ## Inspiration
