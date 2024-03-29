@@ -1,0 +1,129 @@
+/*
+we will start from mobile sie to pc size
+320px
+768px
+1200px and more
+*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;;
+}
+
+.upperHead{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lower-head{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+    margin-top:1.61rem;
+    margin-bottom:1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family:"Playfair Display",serif;
+    font-weight:700;
+    background-image: url("planet-1702788_1280.jpg");
+    height: 400px;
+    color:white;
+}
+
+.lower-head p i{
+    font-weight:0.2rem;
+    letter-spacing: 0.21rem;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:inherit;
+}
+
+nav a:focus,
+nav a:hover{
+    color:rgba(128, 128, 128, 0.46);
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+a:visited{
+    color: rgb(128, 128, 128);
+}
+
+h1{
+    margin-left:2.5rem;
+}
+
+footer{
+    background-color: rgba(255, 228, 196, 0.648);
+    padding:2px;
+    padding:1.61rem;
+}
+
+address h2{
+    text-align: center;
+    color:rgb(255, 81, 0);
+}
+
+address .center{
+    text-align:center;
+}
+
+address a, 
+#about a,
+#plan-your-trip a{
+    text-decoration: none;
+    color:rgb(92, 88, 88);
+}
+
+address a:hover, address a:focus,
+#about a:hover, #about a:focus, 
+#plan-your-trip a:hover, #plan-your-trip a:focus {
+    font-size:1.2rem;
+    transition: 0.4s;
+    text-decoration: underline;
+    color:rgb(53, 51, 51);
+}
+
+#about {
+    margin:2rem 2rem 1rem;
+}
+
+.mini-ad img{
+    margin-right:50%;
+    margin-left:1px;
+}
+
+.mini-ad a{
+    text-align: left;
+    padding:1rem;
+}
+.mini-ad p{
+    text-align:center;
+    font-size:1.1rem;
+    padding:0.61rem;
+}
+
+
+
+
+
+
+
