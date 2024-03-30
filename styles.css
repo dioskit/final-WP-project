@@ -43,7 +43,7 @@ body{
     text-align: center;
     font-family:"Playfair Display",serif;
     font-weight:700;
-    background-image: url("/IMAGES/planet-1702788_1280.jpg");
+    background-image: url("IMAGES/planet-1702788_1280.jpg");
     height: 400px;
     color:black;
 }
