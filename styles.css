@@ -43,9 +43,9 @@ body{
     text-align: center;
     font-family:"Playfair Display",serif;
     font-weight:700;
-    background-image: url("planet-1702788_1280.jpg");
+    background-image: url("/IMAGES/planet-1702788_1280.jpg");
     height: 400px;
-    color:white;
+    color:black;
 }
 
 .lower-head p i{
@@ -112,20 +112,21 @@ address a:hover, address a:focus,
     margin:2rem 2rem 1rem;
 }
 
-.mini-ad img{
+.mini-head img{
     margin-right:50%;
     margin-left:1px;
 }
 
-.mini-ad a{
+.mini-head a{
     text-align: left;
     padding:1rem;
 }
-.mini-ad p{
+.mini-head p{
     text-align:center;
     font-size:1.1rem;
     padding:0.61rem;
 }
+
 
 
 
