@@ -45,7 +45,8 @@ body{
     font-weight:700;
     background-image: url("IMAGES/planet-1702788_1280.jpg");
     height: 400px;
-    color:black;
+    color:rgb(210, 202, 202);
+    text-shadow: 2px 2px rgb(32, 31, 31);
 }
 
 .lower-head p i{
@@ -67,6 +68,7 @@ nav a:hover{
     color:rgba(236, 47, 47, 0.46);
     font-size: 1.3rem;
     transition: 0.3s;
+    margin-right: 1.61rem;
 }
 
 a:visited{
