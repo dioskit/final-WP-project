@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* STYLES||*/
+:root{
+    --BGCOLOR:aliceblue;
+    --COLOR:black;
+    --BFONT:arial;
+    --footerBGColor:bisque;
+    /* -- */
+}
+
+body{
+    display:flex;
+    background-color: var(--BGCOLOR);
+    color: var(--COLOR);
+    font-family: var(--BFONT);
+    flex-direction:column;
+}
+
+header, footer, nav {
+    display:grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align:center;
+}
+
+header, footer{
+    position:sticky;
+}
+
+header{
+    top:0;
+}
+
+main{
+    
+}
+
+footer{
+    bottom:0;
+}

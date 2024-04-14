@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*variables*/
+:root{
+    --BGCOLOR:bisque;
+    /*square*/
+    --SQUARE-BGCOLOR: papayawhip;
+    --SQUARE-SIZE: max(150px, 20vw);
+}
+
+@media (prefers-color-scheme:dark){
+    :root{
+        --BGCOLOR: BLACK;
+        color:white;
+    }
+}
+
+/*|| GENERAL STYLES*/
+body{
+    font: 1.5rem, sans-serif;
+    min-height:100vh;
+    background-color: var(--BGCOLOR);
+    background-image: radial-gradient(whitesmoke, bisque);
+    display:flex;
+    flex-direction: column;
+}
+
+header, footer{
+    position:sticky;
+    background-color: grey;
+    color:whitesmoke;
+}
+header{
+    top:0;
+};
+
+header, nav,footer{
+    display:grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align:center;
+}
+
+header, footer {
+    position:sticky;
+    background-color: grey;
+    color:whitesmoke;
+}
+
+header{
+    top:0;
+}
+
+nav {
+    background-color:white;
+    color:black;  
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+main {
+    flex-grow: 1;
+    padding:10px 0;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-flow:row wrap;
+    gap: min(4vw, 15px);
+}
+
+footer{
+    bottom:0;
+}
+
+/*|| FEATURES*/
+
+.square{
+    background-color: var(--SQUARE-BGCOLOR);
+    width:var(--SQUARE-SIZE);
+    height:var(--SQUARE-SIZE);
+    border:1px solid black;
+    display:grid;
+    place-content:center;
+}
+
+.square--highlight{
+    --SQUARE-BGCOLOR: cornflowerblue;
+}
+/* SMALL */
+
+@media screen and (min-width: 576px){
+    body{
+        background-color: green;
+        background-image:radial-gradient(whitesmoke, green);
+    }
+    nav{
+        display:none;
+    }
+}
+/*MEDIUM*/
+@media screen and (min-width: 768px){
+    body{
+        background-color: gold;
+        background-image:radial-gradient(whitesmoke, gold);
+    }
+    nav{
+        display:none;
+    }
+}
+/*LARGE*/
+@media screen and (min-width: 992px){
+    body{
+        background-color: firebrick;
+        background-image:radial-gradient(whitesmoke, firebrick);
+    }
+    nav{
+        display:none;
+    }
+}
+
+/*XL*/
+
+
+
+/* conditions:
+some px, orentation: landscape or potirait, min-aspect-ratio: 16/9 or 7/4 
+ @media type and (condition: breakpoint){
+    then csss
+
+
+    min-width -> starting from this width apply this css
+    max-width -> to this width apply this css
+}
+*/

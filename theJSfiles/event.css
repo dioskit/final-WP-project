@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    font-size:1.1rem;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background-color: grey;
+    color:aliceblue;
+    padding:0.61rem;
+}
+
+main,footer{
+    flex-grow: 1;
+    display:flex;
+    padding:10px 0;
+    place-content: center;
+    gap:1rem;
+}
+
+button{
+    background-color: rgba(234, 255, 0, 0.61);
+    margin:10px 0;
+    border:none;
+    border-radius: 1rem;
+    padding:0.61rem;
+}
+ 
+.boxes{
+    padding:2rem;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(109, 148, 148);
+    border-radius: 0.61rem;
+    margin:0.21rem;
+}
+
+.hidden-content{
+    display:none;
+}
+ 
+.hidden-content.reveal-btn{
+    display:block;
+    transition: 0.3s;
+}
