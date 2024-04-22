@@ -15,3 +15,4 @@
 - text color: rgb(101,108,116)
 - bg color: rgb(228,237,232)
 - additional colors:rgb(38,33,37), rgb(164,127,72)
+ 

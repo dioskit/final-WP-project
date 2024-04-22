@@ -1,0 +1,25 @@
+
+:root{
+    /* different color themes || */
+
+    /* classic || */
+    --classic1:#e1e5de;
+    --classic2:#8d8d85;
+    --classic3:#3a393b;
+    --classic4:#888276;
+    --classic5:#372616;
+
+    /* elegant || */
+    --elegant1:#f2e0cf;
+    --elegant2:#d4c7b4 ;
+    --elegant3:#854628 ;
+    --elegant4:#7c7458 ;
+    --elegant5:#2d2d23 ;
+
+    /* modern || */
+    --modern-alt1:#646a5e  ;
+    --modern-light:#e0e0da  ;
+    --modern-alt2:#ccc5b2 ;
+    --modern-alt3:#989589  ;
+    --modern-dark:#414141  ;
+}

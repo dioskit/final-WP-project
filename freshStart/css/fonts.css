@@ -12,11 +12,3 @@
     --modernTF: "Montserrat", sans-serif;
     --modernPF:"Hind", sans-serif;
 }
-
- 
-h1{
-    font-family:var(--modernTF);
-}
-.paragraph-font{
-    font-family: var(--modernPF);
-} 
